@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.mxrnbottomsheet.MxRNBottomSheet" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Native"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Mx RNBottom Sheet</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="content" type="widgets" required="true">
+                <caption>Content</caption>
+                <description />
+            </property>
+            <property key="showBottomSheet" type="attribute" required="true">
+                <caption>Show bottom sheet</caption>
+                <description />
+                <attributeTypes>
+                    <attributeType name="Boolean"/>
+                </attributeTypes>
+            </property>
+            <property key="openAction" type="action">
+                <caption>On open</caption>
+                <description>Action to be performed when bottomsheet opens</description>
+            </property>
+            <property key="closeAction" type="action">
+                <caption>On close</caption>
+                <description>Action to be performed when bottomsheet closes</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
